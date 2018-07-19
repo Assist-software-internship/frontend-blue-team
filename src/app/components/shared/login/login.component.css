@@ -49,7 +49,7 @@ input {
 
 .login-to-your-accoun {
     text-align: center;
-    position: relative;
+    /* position: relative; */
     top: -40px;
     left: -50%;
 	height: 96px;
@@ -70,7 +70,6 @@ input {
 	font-family: Roboto;
 	font-size: 20px;
 	line-height: 26px;
-	text-align: center;
 }
 .forgot-password-res {
 	height: 19px;
@@ -91,41 +90,44 @@ input {
 	text-align: center;
 }
 .pos {
-    position: absolute;
+
     top: 380px;
-    left: 950px;
+
+
 }
 .posb {
-    position: absolute;
+    position: relative;
     top: 361px;
     left: 950px;
+    
 }
 .pos1 {
-    position: relative;
+
     top: 450px;
-    left: 10px;
+
 }
-body{
+#mama{
     background-color: #020e30;
     background-repeat: no-repeat;
     background-position: center; 
     background-image: url('../../../../assets/bg_image.png');
+    width: 100vw;
+    height: 100vh;
     
  }
  .container{
     left: -51px;
     top: 16px;
-    width: 1589px;
-    height: 1061px;
-    opacity: 5%;
+     width: 100vw;
+    height: 100vh; 
+   
   }
 
-.height {
-            height: 120vh;
+.maindiv {
+            height: 100%;
+            width: 100%;
     }
-.width {
-    width: 150vh;
-}
+
     .inline
 {
     display: inline;
@@ -142,7 +144,7 @@ body{
         }
 
 #login {
-   display: none;
+   display: block;
 }
 #create {
     display: none;

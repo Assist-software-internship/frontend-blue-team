@@ -13,7 +13,7 @@ import {ApiConnectionService} from '../../../services/api-connection/api-connect
 export class LoginComponent implements OnInit {
  
 
-<<<<<<< HEAD
+
    @Input() users: User;
    isDisplayed: boolean = false;
   constructor(private router: ActivatedRoute ,
@@ -24,11 +24,6 @@ export class LoginComponent implements OnInit {
   
   ngOnInit():void {
     this.getUsers();
-=======
-  constructor() {
-  
-   }
->>>>>>> 344d3f53ac144378f103408999944e7daa943da3
 
   }
   //  getUsers(): void {
